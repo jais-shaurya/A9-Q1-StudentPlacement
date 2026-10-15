@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Portal</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f5fa;
+            color: #263238;
+        }
+        header {
+            background: #1c3d70;
+            color: white;
+            text-align: center;
+            padding: 26px 15px;
+        }
+        nav {
+            background: #142c50;
+            padding: 14px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+        }
+        main {
+            max-width: 1050px;
+            margin: 25px auto;
+            padding: 0 16px;
+        }
+        .card {
+            background: white;
+            padding: 22px;
+            margin-bottom: 20px;
+            border-radius: 9px;
+            box-shadow: 0 2px 8px #00000012;
+        }
+        h2 { color: #1c3d70; }
+        .stats, .companies, .drives {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+        .stat, .company, .drive {
+            background: #edf2fc;
+            padding: 17px;
+            border-radius: 7px;
+        }
+        .stat strong {
+            display: block;
+            color: #1c3d70;
+            font-size: 25px;
+            margin-bottom: 7px;
+        }
+        footer {
+            background: #142c50;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Student Placement Portal</h1>
+    <p>Connecting Students with Career Opportunities</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#statistics">Statistics</a>
+    <a href="#companies">Companies</a>
+    <a href="#drives">Recruitment Drives</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section class="card" id="about">
+        <h2>About the Placement Cell</h2>
+        <p>
+            The Placement Cell supports students in preparing for careers
+            through company connections, career guidance, internships,
+            and campus recruitment opportunities.
+        </p>
+    </section>
+
+    <section class="card" id="statistics">
+        <h2>Placement Statistics</h2>
+        <div class="stats">
+            <div class="stat"><strong>500+</strong>Students Placed</div>
+            <div class="stat"><strong>80+</strong>Recruiting Companies</div>
+            <div class="stat"><strong>12 LPA</strong>Highest Package</div>
+            <div class="stat"><strong>6 LPA</strong>Average Package</div>
+        </div>
+    </section>
+
+    <section class="card" id="companies">
+        <h2>Company Information</h2>
+        <div class="companies">
+            <div class="company">
+                <h3>TechNova</h3>
+                <p>Software Development</p>
+                <p>Eligibility: B.Tech / M.Tech</p>
+            </div>
+            <div class="company">
+                <h3>CloudSphere</h3>
+                <p>Cloud Computing</p>
+                <p>Eligibility: CS / IT students</p>
+            </div>
+            <div class="company">
+                <h3>DataWorks</h3>
+                <p>Data Analytics and AI</p>
+                <p>Eligibility: Relevant technical branches</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card" id="drives">
+        <h2>Upcoming Recruitment Drives</h2>
+        <div class="drives">
+            <div class="drive">
+                <h3>TechNova</h3>
+                <p>Date: 10 November 2026</p>
+                <p>Role: Software Engineer</p>
+            </div>
+            <div class="drive">
+                <h3>CloudSphere</h3>
+                <p>Date: 18 November 2026</p>
+                <p>Role: Cloud Associate</p>
+            </div>
+            <div class="drive">
+                <h3>DataWorks</h3>
+                <p>Date: 25 November 2026</p>
+                <p>Role: Data Analyst</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card" id="contact">
+        <h2>Contact the Placement Cell</h2>
+        <p>Email: placements@college.edu</p>
+        <p>Visit the university Placement Cell for recruitment updates.</p>
+    </section>
+</main>
+
+<footer>
+    Student Placement Portal | 2026
+</footer>
+</body>
+</html>
+```
